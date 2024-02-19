@@ -1,3 +1,15 @@
+![image](https://github.com/Jagadeesh-Udugundla/adapttask/assets/97141186/952a021f-6241-498b-8374-f583afbc3621)
+
+![image](https://github.com/Jagadeesh-Udugundla/adapttask/assets/97141186/cb12ddc9-3786-4690-b068-e944860bd2fe)
+
+![image](https://github.com/Jagadeesh-Udugundla/adapttask/assets/97141186/e8ddcd8f-d7ee-4e70-896e-ee3093b74788)
+
+![image](https://github.com/Jagadeesh-Udugundla/adapttask/assets/97141186/0b88b8cb-f5bd-4a24-bbcd-8ad0c959cf68)
+
+used React Js and MUI for this project
+
+Project line link https://adaptjagadeesh.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
