@@ -22,7 +22,6 @@ const Pending = () => {
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
   const totalPages = Math.ceil(data.length / itemsPerPage);
-  const currentPageData = data.slice(startIndex, endIndex);
 
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
@@ -131,7 +130,7 @@ const Pending = () => {
           </tr>
         </thead>
         <tbody style={{overflow: "scroll", maxHeight: '200px'}}>
-          {data.map((item, index) => (
+          {data.slice(startIndex, endIndex).map((item, index) => (
             <tr key={index} style={{ textAlign: "start", border: "1px solid black" }}>
               <td style={{ display: "flex", justifyContent: 'space-between', padding: '8px' }}>
                 <div>
